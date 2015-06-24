@@ -1,0 +1,163 @@
+body{
+  background-color: #C2FFCC;
+  color: black;
+}
+
+.container-fluid{
+  background-color: #FAFFFF;
+  margin: 2% 3% 1%;
+  padding:2%;
+  border-radius:25px;
+ border:solid 2px #CC0066;
+}
+
+header {
+  padding:2em;
+  background-color:#00CC00;
+  text-align:center;
+  border:solid 2px #6699CC;
+  
+}
+
+img { 
+  float:left;
+  margin-right:1em;
+  border:solid 2px #6699CC;
+}
+
+header2 {
+  margin-top:2%;
+  padding:.1px;
+  background-color:#85A3FF;
+  text-align:center;
+  border:solid 2px #6699CC;
+  
+}
+
+.heading {
+border:solid 2px #6699CC;
+      background-color: #aebbdb;     
+background-image: url(palm-trees.jpg) no-repeat top left;
+padding;3em;
+}
+
+#heading {
+
+      background:black url(panorama.jpg);
+      background-repeat:no-repeat;
+      background-size:100% 100%;
+      width:100%;
+      height:200px;
+      border:solid 2px #6699CC;
+}
+
+.navbar .navbar-inner {
+  margin-top:2em;
+  background-color:#85A3FF; 
+  background-image: none;
+  filter: none;
+  border:solid 2px #6699CC;
+}
+
+.navbar-inner > ul.nav {
+  padding-left:4em;
+  
+}
+
+.navbar-inner ul.nav li {
+  font-family : Arial, Helvetica, sans-serif;font-size : 1.1em;
+  padding:0 1em;
+  
+}
+
+h1, h2{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+h1{
+  font-size: 3em;
+  color:white;
+}
+
+
+h2{
+  font-size: 2em;
+  text-align:center;
+}
+h3, h4{
+  text-align:center;
+}
+p{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+a {
+  outline:0;
+}
+
+ul.nav li a:link, ul.nav li a:visited{
+  color : white;
+  text-shadow:none;
+}
+
+ul.nav li a:hover{
+  text-shadow:none;
+  color: navy;  
+}
+
+ul.nav li.dropdown >ul.dropdown-menu li{
+  margin-top:.5em;
+}
+
+ul.nav li.dropdown >ul.dropdown-menu a:link, ul.nav li.dropdown >ul.dropdown-menu a:visited{
+  background-color:#85A3FF;
+  background-image: none;
+  color:white;
+}
+
+ul.nav li.dropdown >ul.dropdown-menu a:hover{
+  color:black;
+}
+
+p a:link {
+  text-decoration: underline;
+  color: navy;
+}
+
+p a:visited {
+  text-decoration: underline;
+  color:purple;
+}
+
+p a:hover {
+  text-decoration:none;
+  background-color:#256290;
+  color:white;
+}
+
+#gallery {
+	width: 100%;
+}
+
+#gallery a img {
+        float:left;
+	padding:5px;
+	border: 1px solid #666;
+	margin: 2 2%;
+}
+
+small {
+ color: slategray;
+ 
+}
+
+form#contact label {
+  font-weight: bold;
+  font-size: small;
+  color: blue;
+  line-height: 150%;
+}
+
+
+
